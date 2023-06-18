@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start:dev": "nodemon app.js -e js,hbs",
-    "build": "npx tailwindcss -i public/css/style.css -o public/css/style.output.css --watch"
+    "build": "npx tailwindcss -i public/css/style.css -o public/css/style.output.css --watch",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
